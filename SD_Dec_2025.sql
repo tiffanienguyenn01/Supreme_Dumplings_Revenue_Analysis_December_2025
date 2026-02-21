@@ -273,7 +273,7 @@ LIMIT 10;
 - Customers prefer core signature items rather than secondary appetizer or vegetable dishes
 */
 
--- Menu Engineering (Stars, Flowhorses, Puzzles, Dogs)
+-- Menu Engineering (Stars, Flow Horses, Puzzles, Dogs)
 
 WITH item_stats AS (
 	SELECT 
@@ -309,13 +309,12 @@ ORDER BY revenue DESC;
 /* Observations/Insights:
 - Stars: primary revenue driver (most valuable items), these items are both popular and highly
 profitable
-- Plow Horses: Hot & Sour Soup and Spicy Beef Bun, these items sell frwquently but generate lower revenue
+- Plow Horses: Hot & Sour Soup and Spicy Beef Bun, these items sell frequently but generate lower revenue
 per item, which customers like them, but profit potential could be improved.
 - Puzzles: Black Truffle & Vegetable Fried Rice, this item has strong revenue potential but low sale
 volume, which customers don't order them often, but they are profitable.
 - Dogs: low popularity and low revenue (worst performers), these items contribute almost nothing
 to revenue but still require inventory, labor, and menu space.
-- 69% of menu items are Dogs, which most menu items generate minimal revenue (69% underperforming)
 */
 
 -- Drinks Drive Revenue
@@ -352,7 +351,7 @@ ORDER BY total_cost DESC;
 
 /* Observations/Insights:
 - BOH line cooks account for the majority of labor cost, contributing over $105K, which
-is significantly higher than all other postions
+is significantly higher than all other positions.
 - FOH roles are extremely cost-efficient and help improve operational flow without
 significantly increasing labor cost.
 */
