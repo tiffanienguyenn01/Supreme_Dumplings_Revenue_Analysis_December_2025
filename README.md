@@ -26,7 +26,7 @@ Machine learning and predictive modeling
 Data visualization and dashboard development
 Business insight generation and decision support
 
-![Restaurant Performance Analysis Dashboard - Supreme Dumplings](Overview.png)
+![Restaurant Performance Analysis Overview Dashboard - Supreme Dumplings](Overview.png)
 
 ## Results
 - A/B testing showed that discounted orders generated significantly higher customer spending, with AOV increasing from $28.92 to $33.31 (p < 0.001).
